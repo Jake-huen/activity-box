@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: JasonEtco/activity-box@master
         env:
-          GH_PAT: ${{ b3ccd50f363a1bc6316745fadbdfa1d1 }}
-          GITHUB_TOKEN: ${{ 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 }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: Jake-huen
-          GIST_ID: GO_PATGITHUB_PAT_11ANTJT4Q0VGGJ6MMJNOPB_YQJ3MPTV5IVBJT9EPWMR6WWAB56CFAXPXXLOP0KHUAGVAFGKPGNJETWB0MT
+          GIST_ID: 39544ac58378303794d4d038211a314b
